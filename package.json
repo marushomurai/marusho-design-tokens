@@ -1,0 +1,15 @@
+{
+  "name": "@marusho/design-tokens",
+  "version": "1.0.0",
+  "description": "Shared design tokens for Marusho apps",
+  "exports": {
+    ".": "./index.css",
+    "./tokens.css": "./tokens.css",
+    "./dark.css": "./dark.css",
+    "./tailwind.css": "./tailwind.css",
+    "./base.css": "./base.css"
+  },
+  "files": [
+    "*.css"
+  ]
+}

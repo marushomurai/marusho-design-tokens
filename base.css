@@ -1,0 +1,19 @@
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    font-feature-settings: 'tnum' on, 'lnum' on;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+
+  .font-mono, .tabular-nums {
+    font-family: var(--font-mono);
+    font-feature-settings: 'tnum' on;
+  }
+}

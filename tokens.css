@@ -1,0 +1,62 @@
+/*
+ * Marusho Design Tokens
+ * ライトモード標準（製造現場視認性 + 印刷対応）
+ * Primary: #2563EB (Blue)
+ */
+
+:root {
+  --radius: 0.625rem;
+
+  /* ライトモード（標準） */
+  --background: oklch(1 0 0);                    /* #FFFFFF */
+  --background-secondary: oklch(0.985 0.002 247); /* #F8FAFC */
+  --foreground: oklch(0.145 0.014 253);          /* #0F172A slate-900 */
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0.014 253);
+
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0.014 253);
+
+  /* Primary: Blue #2563EB */
+  --primary: oklch(0.546 0.245 262.88);
+  --primary-foreground: oklch(0.985 0 0);
+
+  --secondary: oklch(0.968 0.003 264);           /* #F1F5F9 slate-100 */
+  --secondary-foreground: oklch(0.279 0.024 256); /* #1E293B slate-800 */
+
+  --muted: oklch(0.968 0.003 264);
+  --muted-foreground: oklch(0.446 0.03 256.8);   /* #64748B slate-500 */
+
+  --accent: oklch(0.968 0.003 264);
+  --accent-foreground: oklch(0.279 0.024 256);
+
+  /* Semantic Colors */
+  --success: oklch(0.527 0.154 150);             /* #16A34A green-600 */
+  --success-foreground: oklch(0.985 0 0);
+  --warning: oklch(0.646 0.222 41);              /* #EA580C orange-600 */
+  --warning-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.577 0.245 27.3);        /* #DC2626 red-600 */
+  --destructive-foreground: oklch(0.985 0 0);
+
+  --border: oklch(0.929 0.006 264);              /* #E2E8F0 slate-200 */
+  --input: oklch(0.929 0.006 264);
+  --ring: oklch(0.546 0.245 262.88);             /* Primary blue */
+
+  /* Chart Colors */
+  --chart-1: oklch(0.546 0.245 262.88);          /* Blue */
+  --chart-2: oklch(0.527 0.154 150);             /* Green */
+  --chart-3: oklch(0.646 0.222 41);              /* Orange */
+  --chart-4: oklch(0.577 0.245 27.3);            /* Red */
+  --chart-5: oklch(0.558 0.288 302);             /* Purple */
+
+  /* Sidebar */
+  --sidebar: oklch(0.985 0.002 247);
+  --sidebar-foreground: oklch(0.145 0.014 253);
+  --sidebar-primary: oklch(0.546 0.245 262.88);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.968 0.003 264);
+  --sidebar-accent-foreground: oklch(0.279 0.024 256);
+  --sidebar-border: oklch(0.929 0.006 264);
+  --sidebar-ring: oklch(0.546 0.245 262.88);
+}
