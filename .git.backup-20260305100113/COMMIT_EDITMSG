@@ -1,0 +1,6 @@
+feat: initial design tokens package
+
+Shared CSS design tokens extracted from marusho-dashboard-svelte.
+Provides :root tokens, dark mode, Tailwind v4 theme mapping, and base styles.
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
